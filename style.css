@@ -6,6 +6,10 @@
   outline: none;
 }
 
+html {
+  font-size: 62.7%;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -46,12 +50,15 @@ header nav .navbar li a {
   font-family: fantasy;
   font-size: 40px;
   color: white;
+  transition: all 0.9s linear;
 }
 .container p {
   width: 500px;
   margin: 0 auto;
   text-align: center;
   margin-top: 20px;
+  font-size: 18px;
+  transition: all 0.9s linear;
 }
 .container ul {
   display: flex;
@@ -80,6 +87,7 @@ header nav .navbar li a {
   display: flex;
   margin-top: 40px;
   flex-direction: column;
+  gap: 30px;
 }
 .othersection h3 {
   font-size: 40px;
@@ -98,6 +106,7 @@ header nav .navbar li a {
   height: -moz-fit-content;
   height: fit-content;
   padding: 30px 0;
+  border-radius: 5px;
 }
 .othersection ul li h4 {
   font-size: 30px;
@@ -131,4 +140,39 @@ footer {
   font-size: 20px;
   font-family: monospace;
   margin-bottom: 30px;
+}
+
+@media (max-width: 440px) {
+  html {
+    font-size: 40%;
+  }
+  header nav .navbar {
+    display: none;
+  }
+  .container h1 {
+    font-size: 20px;
+  }
+  .container p {
+    width: 70%;
+    margin: 10px auto;
+  }
+  .othersection {
+    margin-top: 270px;
+  }
+  .othersection h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .othersection ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .othersection ul li {
+    width: 80%;
+    margin: auto;
+  }
+  footer {
+    margin-top: 230px;
+  }
 }/*# sourceMappingURL=style.css.map */
