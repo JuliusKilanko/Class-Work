@@ -66,7 +66,7 @@ header nav .navbar li a {
   border: solid 2px red;
 }
 .container ul li a:hover {
-  background: transparent;
+  background: linear-gradient(rgba(0, 0, 0, 0.568), rgba(255, 0, 0, 0.555));
   border: solid 2px red;
   color: red;
 }
@@ -120,7 +120,7 @@ header nav .navbar li a {
   border: solid 2px greenyellow;
 }
 .othersection ul li a:hover {
-  background: transparent;
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(172, 255, 47, 0.507));
   border: solid 2px greenyellow;
 }
 
